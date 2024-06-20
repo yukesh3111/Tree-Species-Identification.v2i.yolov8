@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 125
+names: ['Abies', 'Acacia', 'Acer circinatum', 'Acer macrophyllum', 'Agonis flexuos', 'Alnus alnobetula', 'Alnus rhombifolia', 'Alnus rubra', 'Alnus tenuifolia', 'Amelanchier alnifolia', 'Araucaria heterophylla', 'Arbutus menziesii', 'Bamboo-shoots', 'Banana-plant', 'Banyan-Tree', 'Betula papyrifera', 'Callitropsis nootkatensis', 'Calocedrus decurrens', 'Camellia Moonlight', 'Celtis reticulata', 'Chamaecyparis lawsoniana', 'Chrysolepis chrysophylla', 'Coconut-tree', 'Cordyline australis', 'Cornus nuttallii', 'Crataegus monogyna', 'Croton machrostychus', 'Cupressus nootkatensis', 'Dissectum syn Atropurpurea', 'Dombeya torrida', 'Elaeagnus angustifolia', 'Frangula purshiana', 'Fraxinus latifolia', 'Hesperocyparis bakeri', 'Japanese Maple', 'Jeffers Red', 'Juniperus communis', 'Juniperus occidentalis', 'Juniperus procesera', 'Juniperus scopulorum', 'Kahikatea', 'Kauri', 'Kowhai', 'Larix occidentalis', 'Magnolia grandiflora', 'Malus fusca', 'Mango-Tree', 'Manuka', 'Neem-Tree', 'Nikua', 'Notholithocarpus densiflorus', 'Olea el greco', 'Olea europea -africana-', 'Olea nabali', 'Olea welwitchii', 'Papaya-Tree', 'Phyllocladus trichomanoides', 'Picea breweriana', 'Picea engelmannii', 'Picea sitchensis', 'Pinus Thunbergii', 'Pinus albicaulis', 'Pinus contorta var', 'Pinus contorta var. latifolia', 'Pinus jeffreyi', 'Pinus lambertiana', 'Pinus monticola', 'Pinus ponderosa', 'Pisang', 'Plam-Tree', 'Platinus acerifolia', 'Podocarpus falcatus', 'Pohutukawa', 'Polyscias Kikuyensis', 'Populus angustifolia', 'Populus nigra', 'Populus tremuloides', 'Prunus Africana', 'Prunus emarginata', 'Prunus virginiana', 'Pseudotsuga menziesii', 'Puriri', 'Quercus chrysolepis', 'Quercus garryana', 'Quercus kelloggii', 'Rata and Pohutukaw', 'Rimu', 'Robinia pseudoacacia', 'Sequoia sempervirens', 'Skeeters Broom', 'Syzygium Resilience', 'Syzygium guinesis', 'Taraire', 'Taxus brevifolia', 'Thuja plicata', 'Ti Kouka', 'Totara', 'Tristaniopsis laurina', 'Tsuga heterophylla', 'Tsuga mertensiana', 'Tulip', 'Umbellularia californica', 'Viburnum Emerald Beauty', 'Vitex lucens', 'acebo', 'baobab', 'camphor', 'cauce', 'cedro', 'cipres', 'cuibai', 'dianyousong', 'dogwood', 'ganlan', 'ginkgo', 'huashansong', 'jinsitao', 'maple', 'olivo', 'olmo', 'pino', 'roble', 'sakura', 'sanaoubar', 'zelkova']
+
+roboflow:
+  workspace: tree-species-identification
+  project: tree-species-identification-rjtsb
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/tree-species-identification/tree-species-identification-rjtsb/dataset/2
